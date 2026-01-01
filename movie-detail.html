@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movie Detail — Filmagnet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top bar (reuse) -->
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Filmagnet</span>
+        </a>
+
+        <nav class="nav">
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="#">Movie</a>
+          <a class="nav__link" href="#">TV Show</a>
+          <a class="nav__link" href="#">Web Series</a>
+          <a class="nav__link" href="#">Premium</a>
+        </nav>
+
+        <div class="topbar__actions">
+          <button class="lang" type="button" aria-label="Pilih Bahasa">
+            <span class="lang__badge">EN</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+
+          <a class="btn btn--outline" href="#">Sign In</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="detail">
+      <div class="container">
+        <!-- Trailer / Banner -->
+        <section class="detail__hero">
+          <div class="detail__media" style="--img: url('assets/hero.jpg')">
+            <div class="detail__mediaOverlay"></div>
+
+            <button class="detail__play" type="button" aria-label="Watch Trailer">
+              <span class="detail__playIcon"></span>
+              <span class="detail__playText">Watch Trailer</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Info -->
+        <section class="detail__body">
+          <div class="detail__left">
+            <div class="detail__titleRow">
+              <h1 class="detail__title">Top Gun: Maverick</h1>
+              <div class="detail__facts"><span class="dotsep">•</span><span>2022</span> <span class="dotsep">•</span><span>PG-13</span> <span class="dotsep">•</span><span>2h 10m</span></div>
+            </div>
+
+            <div class="detail__chips">
+              <span class="chip">Action</span>
+              <span class="chip">Drama</span>
+            </div>
+
+            <p class="detail__desc">
+              After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen
+              to fly it.
+            </p>
+
+            <div class="detail__divider"></div>
+
+            <div class="detail__metaList">
+              <div class="metaRow">
+                <span class="metaLabel">Director :</span>
+                <span class="metaValue accent">Joseph Kosinski</span>
+              </div>
+              <div class="metaRow">
+                <span class="metaLabel">Writers :</span>
+                <span class="metaValue accent">Jim Cash, Jack Epps Jr, Peter Craig</span>
+              </div>
+              <div class="metaRow">
+                <span class="metaLabel">Stars :</span>
+                <span class="metaValue accent">Tom Cruise, Jennifer Connelly, Miles Teller</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="detail__right">
+            <div class="detail__icons">
+              <button class="iconBtn" type="button" aria-label="Like">♡</button>
+              <button class="iconBtn" type="button" aria-label="Share">↗</button>
+              <button class="iconBtn" type="button" aria-label="Save">⎘</button>
+            </div>
+
+            <div class="detail__rating">
+              <span class="star">★</span>
+              <span class="rateNum">8.5</span>
+              <span class="rateCount">| 350k</span>
+            </div>
+
+            <a class="btn detail__primary" href="#" role="button">See Showtimes</a>
+            <a class="btn detail__secondary" href="#" role="button">≡ More watch options</a>
+          </aside>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

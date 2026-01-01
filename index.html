@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Filmagnet — Streaming</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Filmagnet</span>
+        </a>
+
+        <nav class="nav">
+          <a class="nav__link is-active" href="#">Home</a>
+          <a class="nav__link" href="#">Movie</a>
+          <a class="nav__link" href="#">TV Show</a>
+          <a class="nav__link" href="#">Web Series</a>
+          <a class="nav__link" href="#">Premium</a>
+        </nav>
+
+        <div class="topbar__actions">
+          <button class="lang" type="button" aria-label="Pilih Bahasa">
+            <span class="lang__badge">EN</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+
+          <a class="btn btn--outline" href="#">Sign In</a>
+        </div>
+
+        <button class="burger" type="button" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero hero__full">
+        <div class="hero__panel">
+          <div class="hero__bg" aria-hidden="true"></div>
+          <div class="hero__overlay" aria-hidden="true"></div>
+
+          <!-- Hero Content Inside Carousel -->
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Unlimited <span class="accent">Entertainment</span>,<br />
+              Movies, TV shows, &amp; More.
+            </h1>
+            <p class="hero__sub">Filmagnet</p>
+          </div>
+
+          <div class="hero__controls" aria-hidden="true">
+            <button class="hero__arrow" type="button">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path d="M14 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+
+            <div class="dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot is-active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <button class="hero__arrow" type="button">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path d="M10 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+          <!--Close Hero Content Inside Carousel -->
+        </div>
+        <!-- Close Hero Section -->
+      </section>
+
+      <section>
+        <!-- Search Section -->
+        <div class="container">
+          <div class="search">
+            <div class="search__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M16.5 16.5 21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <input class="search__input" type="text" placeholder="Search Movie ..." />
+            </div>
+          </div>
+        </div>
+        <!-- Close Search Section -->
+      </section>
+
+      <!-- Section Feature -->
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">FEATURE</h2>
+            <a class="btn btn--pill" href="#">SEE ALL</a>
+          </div>
+
+          <div class="grid grid--posters">
+            <!-- Card 1 -->
+            <article class="card">
+              <a class="card__link" href="movie-detail.html" aria-label="Open detail movie"></a>
+              <div class="card__poster" style="--img: url('assets/p1.jpg')"></div>
+              <h3 class="card__title">Five Nights at Freddy's 2</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p2.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p3.jpg')"></div>
+              <h3 class="card__title">The Running Man</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p4.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p5.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <div class="grid grid--posters">
+            <!-- Card 1 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p1.jpg')"></div>
+              <h3 class="card__title">Five Nights at Freddy's 2</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p2.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p3.jpg')"></div>
+              <h3 class="card__title">The Running Man</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 4 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p4.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+            <!-- Card 5 -->
+            <article class="card">
+              <div class="card__poster" style="--img: url('assets/p5.jpg')"></div>
+              <h3 class="card__title">Marty Supreme</h3>
+              <div class="card__meta">
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24"><path d="M12 17.3 6.6 20l1-6L3 9.7l6.2-.9L12 3l2.8 5.8 6.2.9-4.6 4.3 1 6z" fill="currentColor" /></svg>
+                  7.6
+                </span>
+                <span class="meta">
+                  <svg class="mini" viewBox="0 0 24 24">
+                    <path d="M12 7v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="none" stroke="currentColor" stroke-width="2" />
+                  </svg>
+                  1h 55m
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Close Section Feature -->
+
+      <!-- Section News -->
+      <section class="section section--news">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">NEWS</h2>
+            <a class="btn btn--pill" href="#">SEE ALL</a>
+          </div>
+          <div class="grid grid--news">
+            <!-- Card News 1 -->
+            <article class="news">
+              <div class="news__bg" style="--img: url('assets/news1.jpg')"></div>
+              <div class="news__overlay"></div>
+              <div class="news__content">
+                <span class="news__tag">Upcoming Release</span>
+                <h3 class="news__title">Scream VI</h3>
+                <p class="news__meta">Thriller • Horor • Sci-Fi</p>
+                <a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="https://id.wikipedia.org/wiki/Scream_VI">See Detail</a>
+              </div>
+            </article>
+            <!-- Card News 2 -->
+            <article class="news">
+              <div class="news__bg" style="--img: url('assets/news2.jpg')"></div>
+              <div class="news__overlay"></div>
+              <div class="news__content">
+                <span class="news__tag">Upcoming Release</span>
+                <h3 class="news__title">Scream VI</h3>
+                <p class="news__meta">Educational games • Puzzle games • Role-playing games</p>
+                <a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/The_Super_Mario_Bros._Movie">See Detail</a>
+              </div>
+            </article>
+            <!-- Card News 3 -->
+            <article class="news">
+              <div class="news__bg" style="--img: url('assets/news3.jpg')"></div>
+              <div class="news__overlay"></div>
+              <div class="news__content">
+                <span class="news__tag">Upcoming Release</span>
+                <h3 class="news__title">Transformers: Rise of the Beasts</h3>
+                <p class="news__meta">Adventure • Sci-Fi</p>
+                <a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Transformers:_Rise_of_the_Beasts">See Detail</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Close Section News -->
+    </main>
+  </body>
+</html>
