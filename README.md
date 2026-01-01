@@ -14,6 +14,6 @@
 
 # Figma Design
 
-https://www.figma.com/design/ehpKwTCWcuhiUM40wTiKXi/Movie-Design-Dibimbing?node-id=0-1&p=f&t=GcZMjDlXOTiuSW6Y-0
+https://www.figma.com/design/ehpKwTCWcuhiUM40wTiKXi/Movie-Design-Dibimbing?node-id=0-1&t=GcZMjDlXOTiuSW6Y-1
 
 # Simple-movie-website-HTML-CSS
