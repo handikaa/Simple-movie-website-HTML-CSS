@@ -12,4 +12,8 @@
 1. open folder project on your file.
 2. find file name "index.html" and double tap
 
+# Figma Design
+
+https://www.figma.com/design/ehpKwTCWcuhiUM40wTiKXi/Movie-Design-Dibimbing?node-id=0-1&p=f&t=GcZMjDlXOTiuSW6Y-0
+
 # Simple-movie-website-HTML-CSS
